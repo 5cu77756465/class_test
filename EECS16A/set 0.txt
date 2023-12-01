@@ -1,0 +1,37 @@
+Practice Set 0: Systems of Equations
+and Gaussian Elimination
+
+Linear Function：f(x1, x2, . . . , xn) = α1x1 + α2x2 + . . . + αnxn
+线性可用以下公式：
+1、f(αx) = α f(x)
+2、f(x1 + x2) = f(x1) + f(x2)
+3、f(αx1 + βx2) = α f(x1) + β f(x2) 
+
+Affine Function:f(x1, x2, . . . , xn) = K + α1x1 + α2x2 + . . . + αnxn
+这个k很重要，它等于0和不等于0是两种情况
+
+Linear Equation: If we have a linear function f : RN → R and some constant b,
+then an equation of the following form is linear
+f(x1, x2, . . . , xn) = b
+是不是说Affine Function也是线性的定义
+我做过这道题：
+∑  50 i=1 * i · x − e−3 * y = sin （p/3）
+这也是线性的，他的意思是1到50的和乘以x 减去e的-3次方乘以y等于sin（三分之Π）
+类似上面的线性方程定义
+
+Augmented Matrix Representation of a System:
+f1(x1, x2, . . . , xn) = b1 =⇒ α11x1 + α12x2 + . . . + α1nxn = b1
+f2(x1, x2, . . . , xn) = b2 =⇒ α21x1 + α22x2 + . . . + α2nxn = b2
+.
+.
+.
+fn(x1, x2, . . . , xn) = bn =⇒ αn1x1 + αn2x2 + . . . + αnnxn = bn
+
+转为
+[a11 a12 ... a1n | b1]
+[a21 a22 ... a2n | b2]
+...
+[an1 an2 ... ann | bn]
+事实上外面的是一个大括号.
+
+problem:Forward Pass、Backward Pass
